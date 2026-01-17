@@ -1,1 +1,218 @@
-IyBDRUVNREFOIExvbmctVGltZS1TZXJpZXMgRXh0ZW5zaW9uCgoqKkV4dGVuZGVkIENvbXBsZXRlIEVuc2VtYmxlIEVtcGlyaWNhbCBNb2RlIERlY29tcG9zaXRpb24gd2l0aCBBZGFwdGl2ZSBOb2lzZUFOKSBmb3IgbG9uZyB0aW1lIChDRUVNRC1zZXJpZXMgYW5hbHlzaXMuKioKClshW0xpY2Vuc2U6IEdQTCB2MitdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTGljZW5zZS1HUEwlMjB2MistYmx1ZS5zdmcpXShodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzL29sZC1saWNlbnNlcy9ncGwtMi4wLmh0bWwpClshW1B5dGhvbiAzLjkrXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL3B5dGhvbi0zLjkrLWJsdWUuc3ZnKV0oaHR0cHM6Ly93d3cucHl0aG9uLm9yZy9kb3dubG9hZHMvKQoKIyMg8J+TiyBPdmVydmlldwoKVGhpcyBwcm9qZWN0IHByb3ZpZGVzIGFuICoqZXh0ZW5kZWQgdmVyc2lvbiBvZiBDRUVNREFOKiogdGhhdCByZXNvbHZlcyBhIGxpbWl0YXRpb24gaW4gdGhlIG9yaWdpbmFsIGBlbWQtc2lnbmFsYCBsaWJyYXJ5LCBlbmFibGluZyBkZWNvbXBvc2l0aW9uIG9mIHZlcnkgbG9uZyB0aW1lLXNlcmllcyAoMjcrIHllYXJzIG9mIGhvdXJseSBkYXRhLCAyMzYsMDAwKyBkYXRhIHBvaW50cykgaW50byBtb3JlIHRoYW4gOCBJbnRyaW5zaWMgTW9kZSBGdW5jdGlvbnMgKElNRnMpLgoKIyMg8J+UpyBQcm9ibGVtICYgU29sdXRpb24KCiMjIyBQcm9ibGVtClRoZSBvcmlnaW5hbCBgZW1kLXNpZ25hbGAgbGlicmFyeSAodjAuOC4xKSBjb250YWlucyBhIGhpZGRlbiBsaW1pdGF0aW9uIHRoYXQgcmVzdHJpY3RzIENFRU1EQU4gZGVjb21wb3NpdGlvbiB0byAqKm1heGltdW0gOCBJTUZzKiogZm9yIHByYWN0aWNhbCBwdXJwb3NlcywgY2F1c2VkIGJ5IGludGVybmFsIHdoaXRlIG5vaXNlIElNRiBleHRyYWN0aW9uIHN0b3BwaW5nIGVhcmx5IGR1ZSB0byBkZWZhdWx0IHN0b3BwaW5nIGNyaXRlcmlhLgoKKipFcnJvciBlbmNvdW50ZXJlZDoqKgpgYGAKSW5kZXhFcnJvcjogaW5kZXggOCBpcyBvdXQgb2YgYm91bmRzIGZvciBheGlzIDEgd2l0aCBzaXplIDgKYGBgCgojIyMgU29sdXRpb24KTW9kaWZpZWQgdGhlIGBjb21wbGV0ZV9lbnNlbWJsZV9zaWZ0YCBmdW5jdGlvbiBpbiBgZW1kL3NpZnQucHlgIHRvIHBhc3MgdGhlIGBtYXhfaW1mc2AgcGFyYW1ldGVyIHRvIGludGVybmFsIGBzaWZ0KClgIGNhbGxzLCBlbmFibGluZyBleHRyYWN0aW9uIG9mIHRoZSByZXF1ZXN0ZWQgbnVtYmVyIG9mIElNRnMuCgoqKk1vZGlmaWVkIGNvZGUgKHNpZnQucHksIGxpbmUgODgzLTg4Nyk6KioKYGBgcHl0aG9uCiMgQmVmb3JlOgptb2Rlc193aGl0ZV9ub2lzZSA9IFtzaWZ0KHdoaXRlX25vaXNlW2lpLCA6XSwKICAgICAgICAgICAgICAgICAgICAgICAgICBpbWZfb3B0cz1pbWZfb3B0cywKICAgICAgICAgICAgICAgICAgICAgICAgICBlbnZlbG9wZV9vcHRzPWVudmVsb3BlX29wdHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmVtYV9vcHRzPWV4dHJlbWFfb3B0cykgZm9yIGlpIGluIHJhbmdlKG5lbnNlbWJsZXMpXQoKIyBBZnRlcjoKbW9kZXNfd2hpdGVfbm9pc2UgPSBbc2lmdCh3aGl0ZV9ub2lzZVtpaSwgOl0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgaW1mX29wdHM9aW1mX29wdHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZW52ZWxvcGVfb3B0cz1lbnZlbG9wZV9vcHRzLAogICAgICAgICAgICAgICAgICAgICAgICAgIGV4dHJlbWFfb3B0cz1leHRyZW1hX29wdHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4X2ltZnM9bWF4X2ltZnMpIGZvciBpaSBpbiByYW5nZShuZW5zZW1ibGVzKV0KYGBgCgojIyDwn5OKIFJlc3VsdHMgb24gQVNVIEdISSBEYXRhICgxOTk4LTIwMjQpCgpTdWNjZXNzZnVsbHkgZGVjb21wb3NlZCAqKjIzNiw1MjAgaG91cmx5IGRhdGEgcG9pbnRzICgyNyB5ZWFycykqKiBpbnRvICoqMTMgSU1GcyoqLgoKfCBJTUYgfCBFbmVyZ3kgJSB8IERvbWluYW50IFBlcmlvZCB8IFBoeXNpY2FsIE1lYW5pbmcgfAp8LS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS18CnwgMSB8IDAuMTUlIHwgNi4wIGhvdXJzIHwgSGlnaC1mcmVxdWVuY3kgfAp8IDIgfCAxMy44NSUgfCAxMi4wIGhvdXJzIHwgU2VtaS1kaXVybmFsIHwKfCAzIHwgKiozNC44NCUqKiB8ICoqMjQuMCBob3VycyoqIHwgKipEYWlseSBjeWNsZSoqIHwKfCA0IHwgMC4yMiUgfCAyLjcgZGF5cyB8IFN1Yi1kYWlseSB8CnwgNSB8IDAuMDclIHwgNy4wIGRheXMgfCBXZWVrbHkgfAp8IDYgfCAwLjAzJSB8IDIuMiB3ZWVrcyB8IEJpLXdlZWtseSB8CnwgNyB8IDAuMDIlIHwgMS4xIG1vbnRocyB8IE1vbnRobHkgfAp8IDggfCAqKjMuNTIlKiogfCAqKjEuMCB5ZWFycyoqIHwgKipBbm51YWwgY3ljbGUqKiB8CnwgOSB8IDAuNTAlIHwgMS42IHllYXJzIHwgSW50ZXItYW5udWFsIHwKfCAxMCB8IDAuMDMlIHwgMy40IHllYXJzIHwgTXVsdGkteWVhciB8CnwgMTEgfCAwLjAxJSB8IDUuNCB5ZWFycyB8IE11bHRpLXllYXIgfAp8IDEyIHwgMC4wMCUgfCAxMy41IHllYXJzIHwgTG9uZy10ZXJtIHwKfCAxMyB8ICoqNDYuNzclKiogfCAqKjI3LjAgeWVhcnMqKiB8ICoqVWx0cmEtbG9uZyBiYXNlbGluZSoqIHwKCiMjIyBLZXkgRmluZGluZ3MKLSAqKkRhaWx5IGN5Y2xlIChJTUYgMykqKjogRG9taW5hdGVzIHNob3J0LXRlcm0gdmFyaWFiaWxpdHkgKDM0Ljg0JSBlbmVyZ3kpCi0gKipBbm51YWwgY3ljbGUgKElNRiA4KSoqOiBDYXB0dXJlcyBzZWFzb25hbCB2YXJpYXRpb24gKDMuNTIlIGVuZXJneSkKLSAqKlVsdHJhLWxvbmcgYmFzZWxpbmUgKElNRiAxMykqKjogUmVwcmVzZW50cyBzdGFibGUgbG9uZy10ZXJtIG1lYW4gKDQ2Ljc3JSBlbmVyZ3kpCi0gKioyNy15ZWFyIHRyZW5kKio6IE5lYXJseSBzdGFibGUgd2l0aCBzbGlnaHQgZGVjcmVhc2UgKC0wLjEwIFcvbcKyL3llYXIpCgojIyMgVmVyaWZpY2F0aW9uIFJlc3VsdHMKfCBUZXN0IHwgUmVzdWx0IHwgU3RhdHVzIHwKfC0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLXwKfCBSZWNvbnN0cnVjdGlvbiBjb21wbGV0ZW5lc3MgKFJNU0UpIHwgNS40NmUtMTQgfCDinIUgUGFzc2VkIHwKfCBCYXNlbGluZSBjb3JyZWxhdGlvbiAoMzY1LWRheSBNQSkgfCByID0gMC42OCB8IOKchSBWYWxpZCB8CnwgUGh5c2ljYWwgdmFsaWRpdHkgfCBNZWFuIOKJiCAyNjkgVy9twrIgfCDinIUgVmFsaWQgfAoKIyMg8J+agCBJbnN0YWxsYXRpb24KCiMjIyBQcmVyZXF1aXNpdGVzCi0gUHl0aG9uIDMuOSsKLSBudW1weQotIHNjaXB5Ci0gdHFkbQotIHBhdGhvcwoKIyMjIEluc3RhbGwgTW9kaWZpZWQgVmVyc2lvbgoKMS4gKipPcHRpb24gQTogRGlyZWN0IHBhdGNoIChyZWNvbW1lbmRlZCkqKgogICBgYGBiYXNoCiAgICMgSW5zdGFsbCBvcmlnaW5hbCBlbWQtc2lnbmFsCiAgIHBpcCBpbnN0YWxsIGVtZC1zaWduYWw9PTAuOC4xCiAgIAogICAjIEFwcGx5IHRoZSBwYXRjaCBtYW51YWxseSAoc2VlIHNpZnQucHkgbW9kaWZpY2F0aW9uIGFib3ZlKQogICBgYGAKCjIuICoqT3B0aW9uIEI6IFVzaW5nIG1vbmtleS1wYXRjaGluZyBpbiB5b3VyIGNvZGUqKgogICBgYGBweXRob24KICAgaW1wb3J0IGVtZC5zaWZ0IGFzIHNpZnRfbW9kdWxlCiAgIG9yaWdpbmFsX3NpZnQgPSBzaWZ0X21vZHVsZS5zaWZ0CiAgIAogICBkZWYgYWdncmVzc2l2ZV9zaWZ0KFgsIHNpZnRfdGhyZXNoPTFlLTgsIGVuZXJneV90aHJlc2g9NTAsIHJpbGxpbmdfdGhyZXNoPU5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgbWF4X2ltZnM9Tm9uZSwgdmVyYm9zZT1Ob25lLCByZXR1cm5fcmVzaWR1YWw9VHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICBpbWZfb3B0cz1Ob25lLCBlbnZlbG9wZV9vcHRzPU5vbmUsIGV4dHJlbWFfb3B0cz1Ob25lKToKICAgICAgIHJldHVybiBvcmlnaW5hbF9zaWZ0KFgsIHNpZnRfdGhyZXNoPXNpZnRfdGhyZXNoLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5lcmd5X3RocmVzaD0xZTEwLCAgIyBEaXNhYmxlIGVuZXJneSB0aHJlc2hvbGQKICAgICAgICAgICAgICAgICAgICAgICAgICAgcmlsbGluZ190aHJlc2g9Tm9uZSwgICMgRGlzYWJsZSByaWxsaW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heF9pbWZzPW1heF9pbWZzLCB2ZXJib3NlPXZlcmJvc2UsIAogICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5fcmVzaWR1YWw9cmV0dXJuX3Jlc2lkdWFsLAogICAgICAgICAgICAgICAgICAgICAgICAgICBpbWZfb3B0cz1pbWZfb3B0cywgZW52ZWxvcGVfb3B0cz1lbnZlbG9wZV9vcHRzLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmVtYV9vcHRzPWV4dHJlbWFfb3B0cykKICAgCiAgIHNpZnRfbW9kdWxlLnNpZnQgPSBhZ2dyZXNzaXZlX3NpZnQKICAgYGBgCgojIyMgVXNhZ2UgRXhhbXBsZQpgYGBweXRob24KaW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQKaW1wb3J0IGVtZAoKIyBMb2FkIHlvdXIgbG9uZyB0aW1lLXNlcmllcyBkYXRhCmRmID0gcGQucmVhZF9jc3YoJ3lvdXJfZGF0YS5jc3YnKQpkYXRhID0gZGZbJ3lvdXJfY29sdW1uJ10udmFsdWVzCgojIERlY29tcG9zZSB3aXRoIGV4dGVuZGVkIElNRiBjb3VudAppbWZzID0gZW1kLnNpZnQuY29tcGxldGVfZW5zZW1ibGVfc2lmdCgKICAgIGRhdGEsIAogICAgbmVuc2VtYmxlcz0xMCwgICAgICMgTnVtYmVyIG9mIGVuc2VtYmxlIG1lbWJlcnMKICAgIG1heF9pbWZzPTE1LCAgICAgICAjIEV4dHJhY3QgdXAgdG8gMTUgSU1GcyAod2FzIGxpbWl0ZWQgdG8gOCkKICAgIGVuZXJneV90aHJlc2g9NTAsCiAgICBzaWZ0X3RocmVzaD0xZS04CikKCnByaW50KGYiRXh0cmFjdGVkIHtpbWZzLnNoYXBlWzFdfSBJTUZzIikKcHJpbnQoZiJJTUYgZW5lcmd5IGRpc3RyaWJ1dGlvbjoge1tucC5zdW0oaW1mc1s6LCBpXSoqMikvbnAuc3VtKGltZnMqKjIpKjEwMDouMmZ9JSBmb3IgaSBpbiByYW5nZShpbWZzLnNoYXBlWzFdKV19IikKCiMgRXh0cmFjdCBsb25nLXRlcm0gYmFzZWxpbmUKYmFzZWxpbmUgPSBpbWZzWzosIC0xXSAgIyBMYXN0IElNRiBpcyB0aGUgdWx0cmEtbG9uZyB0cmVuZApgYGAKCiMjIPCfk4EgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYApjZWVtZGFuLWxvbmctc2VyaWVzLwrilJzilIDilIAgTElDRU5TRSAgICAgICAgICAgICAgIyBHUEwgdjIrIExpY2Vuc2UK4pSc4pSA4pSAIFJFQURNRS5tZCAgICAgICAgICAgICMgVGhpcyBmaWxlCuKUnOKUgOKUgCBzaWZ0LnB5ICAgICAgICAgICAgICAjIE1vZGlmaWVkIHNpZnQucHkgKGNvcHkgd2l0aCBjaGFuZ2VzIGhpZ2hsaWdodGVkKQrilJzilIDilIAgc2lmdF9wYXRjaC5weSAgICAgICAgIyBTdGFuZGFsb25lIG1vbmtleS1wYXRjaCBzY3JpcHQK4pSc4pSA4pSAIENFRU1EQU5fcGhhc2Vfc3VtbWFyeS5tZCAgIyBEZXRhaWxlZCBhbmFseXNpcyByZXBvcnQK4pSc4pSA4pSAIENFRU1EQU5fSU1Gc19mdWxsLm5weSAgICAgIyBTYW1wbGUgb3V0cHV0ICgxMyBJTUZzLCAyMzY1MjAgcG9pbnRzKQrilJTilIDilIAgcmVxdWlyZW1lbnRzLnR4dCAgICAgIyBQeXRob24gZGVwZW5kZW5jaWVzCmBgYAoKIyMg8J+TliBEb2N1bWVudGF0aW9uCgpTZWUgW0NFRU1EQU5fcGhhc2Vfc3VtbWFyeS5tZF0oLi9DRUVNREFOX3BoYXNlX3N1bW1hcnkubWQpIGZvcjoKLSBEZXRhaWxlZCBleHBsYW5hdGlvbiBvZiB0aGUgbW9kaWZpY2F0aW9uCi0gQ29tcGxldGUgSU1GIHN0YXRpc3RpY3MgYW5kIGFuYWx5c2lzCi0gVmVyaWZpY2F0aW9uIG1ldGhvZG9sb2d5IGFuZCByZXN1bHRzCi0gUGh5c2ljYWwgaW50ZXJwcmV0YXRpb24gb2YgZWFjaCBJTUYKCiMjIPCflKwgQmFja2dyb3VuZAoKIyMjIE9yaWdpbmFsIExpYnJhcnkKLSAqKk5hbWUqKjogZW1kIChFTUQtc2lnbmFsKQotICoqQXV0aG9yKio6IEFuZHJldyBRdWlubiBldCBhbC4KLSAqKlJlcG9zaXRvcnkqKjogaHR0cHM6Ly9naXRsYWIuY29tL2VtZC1kZXYvZW1kCi0gKipMaWNlbnNlKio6IEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIHYyKwotICoqVmVyc2lvbioqOiAwLjguMSAobW9kaWZpZWQpCgojIyMgV2h5IFRoaXMgTW9kaWZpY2F0aW9uPwoKVGhlIG9yaWdpbmFsIGxpYnJhcnkncyBpbnRlcm5hbCB3aGl0ZSBub2lzZSBzaWZ0IHVzZXMgY29uc2VydmF0aXZlIHN0b3BwaW5nIGNyaXRlcmlhIChgZW5lcmd5X3RocmVzaD01MGAsIGByaWxsaW5nX3RocmVzaD0oMC4wNSwgMC41LCAwLjA1KWApIHRoYXQgY2F1c2UgaXQgdG8gbmF0dXJhbGx5IHN0b3AgYWZ0ZXIgfjggSU1Gcy4gRm9yIGxvbmcgdGltZS1zZXJpZXMgYW5hbHlzaXMgd2hlcmUgd2UgbmVlZCB0byBleHRyYWN0IHVsdHJhLWxvbmcgdHJlbmRzIChzcGFubmluZyB0aGUgZW50aXJlIGRhdGEgbGVuZ3RoKSwgdGhpcyBsaW1pdGF0aW9uIGlzIHByb2JsZW1hdGljLgoKT3VyIG1vZGlmaWNhdGlvbjoKMS4gUGFzc2VzIGBtYXhfaW1mc2AgdG8gaW50ZXJuYWwgc2lmdCBjYWxscwoyLiBPcHRpb25hbGx5IHVzZXMgYWdncmVzc2l2ZSBwYXJhbWV0ZXJzIChgZW5lcmd5X3RocmVzaD0xZTEwYCwgYHJpbGxpbmdfdGhyZXNoPU5vbmVgKSBmb3IgY29tcGxldGUgZXh0cmFjdGlvbgozLiBTdWNjZXNzZnVsbHkgZXh0cmFjdHMgY29oZXJlbnQgbG9uZy10ZXJtIGNvbXBvbmVudHMKCiMjIOKaoO+4jyBMaWNlbnNlIE5vdGljZQoKVGhpcyBwcm9qZWN0IGlzIGEgKiptb2RpZmllZCB2ZXJzaW9uKiogb2YgdGhlIFtlbWRdKGh0dHBzOi8vZ2l0bGFiLmNvbS9lbWQtZGV2L2VtZCkgbGlicmFyeSwgbGljZW5zZWQgdW5kZXIgKipHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2MisqKi4KCioqWW91ciBvYmxpZ2F0aW9ucyB1bmRlciBHUEw6KioKMS4g4pyFIFByZXNlcnZlIHRoaXMgTElDRU5TRSBmaWxlIHVuY2hhbmdlZAoyLiDinIUgSW5jbHVkZSB0aGlzIG5vdGljZSBpbiB5b3VyIGRlcml2YXRpdmUgd29ya3MKMy4g4pyFIE1ha2UgeW91ciBzb3VyY2UgY29kZSBhdmFpbGFibGUgd2hlbiBkaXN0cmlidXRpbmcKNC4g4pyFIEFwcGx5IHRoZSBzYW1lIEdQTCBsaWNlbnNlIHRvIHlvdXIgbW9kaWZpY2F0aW9ucwoKIyMg8J+TnSBDaXRhdGlvbgoKSWYgeW91IHVzZSB0aGlzIGNvZGUgaW4geW91ciByZXNlYXJjaCwgcGxlYXNlIGNpdGU6CgpgYGBiaWJ0ZXgKQHNvZnR3YXJle2NlZW1kYW5fbG9uZ19zZXJpZXMsCiAgYXV0aG9yID0ge1tZb3VyIE5hbWVdfSwKICB0aXRsZSA9IHtDRUVNREFOIExvbmctVGltZS1TZXJpZXMgRXh0ZW5zaW9ufSwKICB1cmwgPSB7aHR0cHM6Ly9naXRodWIuY29tL1t5b3VyLXVzZXJuYW1lXS9jZWVtZGFuLWxvbmctc2VyaWVzfSwKICB2ZXJzaW9uID0gezEuMC4wfSwKICBkYXRlID0gezIwMjYtMDF9LAogIGxpY2Vuc2UgPSB7R1BMLTIuMCt9Cn0KYGBgCgpBbHNvIGNpdGUgdGhlIG9yaWdpbmFsIGVtZCBsaWJyYXJ5OgpgYGBiaWJ0ZXgKQHNvZnR3YXJle2VtZF9saWIsCiAgYXV0aG9yID0ge0FuZHJldyBRdWlubiBldCBhbC59LAogIHRpdGxlID0ge0VNRDogRW1waXJpY2FsIE1vZGUgRGVjb21wb3NpdGlvbn0sCiAgdXJsID0ge2h0dHBzOi8vZ2l0bGFiLmNvbS9lbWQtZGV2L2VtZH0sCiAgdmVyc2lvbiA9IHswLjguMX0sCiAgbGljZW5zZSA9IHtHUEwtMi4wK30KfQpgYGAKCiMjIPCfpJ0gQ29udHJpYnV0aW5nCgpDb250cmlidXRpb25zIGFyZSB3ZWxjb21lISBQbGVhc2Ugbm90ZSB0aGF0IGJ5IGNvbnRyaWJ1dGluZywgeW91IGFncmVlIHRvIGxpY2Vuc2UgeW91ciBjb250cmlidXRpb25zIHVuZGVyIEdQTCB2MisuCgojIyDwn5OnIENvbnRhY3QKCkZvciBxdWVzdGlvbnMgYWJvdXQgdGhpcyBleHRlbnNpb24sIHBsZWFzZSBvcGVuIGFuIGlzc3VlIG9yIGNvbnRhY3QgW3lvdXIgZW1haWxdLgoKLS0tCgoqKkRpc2NsYWltZXIqKjogVGhpcyBwcm9qZWN0IGlzIHByb3ZpZGVkICJhcyBpcyIgd2l0aG91dCB3YXJyYW50eS4gVXNlIGF0IHlvdXIgb3duIHJpc2suCg==
+# CEEMDAN Long-Time-Series Extension
+
+**Extended Complete Ensemble Empirical Mode Decomposition with Adaptive NoiseAN) for long time (CEEMD-series analysis.**
+
+[![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2+-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+
+## 📋 Overview
+
+This project provides an **extended version of CEEMDAN** that resolves a limitation in the original `emd-signal` library, enabling decomposition of very long time-series (27+ years of hourly data, 236,000+ data points) into more than 8 Intrinsic Mode Functions (IMFs).
+
+## 🔧 Problem & Solution
+
+### Problem
+The original `emd-signal` library (v0.8.1) contains a hidden limitation that restricts CEEMDAN decomposition to **maximum 8 IMFs** for practical purposes, caused by internal white noise IMF extraction stopping early due to default stopping criteria.
+
+**Error encountered:**
+```
+IndexError: index 8 is out of bounds for axis 1 with size 8
+```
+
+### Solution
+Modified the `complete_ensemble_sift` function in `emd/sift.py` to pass the `max_imfs` parameter to internal `sift()` calls, enabling extraction of the requested number of IMFs.
+
+**Modified code (sift.py, line 883-887):**
+```python
+# Before:
+modes_white_noise = [sift(white_noise[ii, :],
+                          imf_opts=imf_opts,
+                          envelope_opts=envelope_opts,
+                          extrema_opts=extrema_opts) for ii in range(nensembles)]
+
+# After:
+modes_white_noise = [sift(white_noise[ii, :],
+                          imf_opts=imf_opts,
+                          envelope_opts=envelope_opts,
+                          extrema_opts=extrema_opts,
+                          max_imfs=max_imfs) for ii in range(nensembles)]
+```
+
+## 📊 Results on ASU GHI Data (1998-2024)
+
+Successfully decomposed **236,520 hourly data points (27 years)** into **13 IMFs**.
+
+| IMF | Energy % | Dominant Period | Physical Meaning |
+|-----|----------|-----------------|------------------|
+| 1 | 0.15% | 6.0 hours | High-frequency |
+| 2 | 13.85% | 12.0 hours | Semi-diurnal |
+| 3 | **34.84%** | **24.0 hours** | **Daily cycle** |
+| 4 | 0.22% | 2.7 days | Sub-daily |
+| 5 | 0.07% | 7.0 days | Weekly |
+| 6 | 0.03% | 2.2 weeks | Bi-weekly |
+| 7 | 0.02% | 1.1 months | Monthly |
+| 8 | **3.52%** | **1.0 years** | **Annual cycle** |
+| 9 | 0.50% | 1.6 years | Inter-annual |
+| 10 | 0.03% | 3.4 years | Multi-year |
+| 11 | 0.01% | 5.4 years | Multi-year |
+| 12 | 0.00% | 13.5 years | Long-term |
+| 13 | **46.77%** | **27.0 years** | **Ultra-long baseline** |
+
+### Key Findings
+- **Daily cycle (IMF 3)**: Dominates short-term variability (34.84% energy)
+- **Annual cycle (IMF 8)**: Captures seasonal variation (3.52% energy)
+- **Ultra-long baseline (IMF 13)**: Represents stable long-term mean (46.77% energy)
+- **27-year trend**: Nearly stable with slight decrease (-0.10 W/m²/year)
+
+### Verification Results
+| Test | Result | Status |
+|------|--------|--------|
+| Reconstruction completeness (RMSE) | 5.46e-14 | ✅ Passed |
+| Baseline correlation (365-day MA) | r = 0.68 | ✅ Valid |
+| Physical validity | Mean ≈ 269 W/m² | ✅ Valid |
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.9+
+- numpy
+- scipy
+- tqdm
+- pathos
+
+### Install Modified Version
+
+1. **Option A: Direct patch (recommended)**
+   ```bash
+   # Install original emd-signal
+   pip install emd-signal==0.8.1
+   
+   # Apply the patch manually (see sift.py modification above)
+   ```
+
+2. **Option B: Using monkey-patching in your code**
+   ```python
+   import emd.sift as sift_module
+   original_sift = sift_module.sift
+   
+   def aggressive_sift(X, sift_thresh=1e-8, energy_thresh=50, rilling_thresh=None,
+                       max_imfs=None, verbose=None, return_residual=True,
+                       imf_opts=None, envelope_opts=None, extrema_opts=None):
+       return original_sift(X, sift_thresh=sift_thresh, 
+                           energy_thresh=1e10,  # Disable energy threshold
+                           rilling_thresh=None,  # Disable rilling
+                           max_imfs=max_imfs, verbose=verbose, 
+                           return_residual=return_residual,
+                           imf_opts=imf_opts, envelope_opts=envelope_opts, 
+                           extrema_opts=extrema_opts)
+   
+   sift_module.sift = aggressive_sift
+   ```
+
+### Usage Example
+```python
+import numpy as np
+import pandas as pd
+import emd
+
+# Load your long time-series data
+df = pd.read_csv('your_data.csv')
+data = df['your_column'].values
+
+# Decompose with extended IMF count
+imfs = emd.sift.complete_ensemble_sift(
+    data, 
+    nensembles=10,     # Number of ensemble members
+    max_imfs=15,       # Extract up to 15 IMFs (was limited to 8)
+    energy_thresh=50,
+    sift_thresh=1e-8
+)
+
+print(f"Extracted {imfs.shape[1]} IMFs")
+print(f"IMF energy distribution: {[np.sum(imfs[:, i]**2)/np.sum(imfs**2)*100:.2f}% for i in range(imfs.shape[1])]}")
+
+# Extract long-term baseline
+baseline = imfs[:, -1]  # Last IMF is the ultra-long trend
+```
+
+## 📁 Project Structure
+
+```
+ceemdan-long-series/
+├── LICENSE              # GPL v2+ License
+├── README.md            # This file
+├── requirements.txt     # Python dependencies
+├── sift_patch.py        # Monkey-patch script (one-line fix)
+├── sift_modification_notice.py  # Detailed modification documentation
+└── SUMMARY.md           # Complete analysis report
+```
+
+## 📖 Documentation
+
+See [SUMMARY.md](./SUMMARY.md) for:
+- Detailed explanation of the modification
+- Complete IMF statistics and analysis
+- Verification methodology and results
+- Physical interpretation of each IMF
+
+## 🔬 Background
+
+### Original Library
+- **Name**: emd (EMD-signal)
+- **Author**: Andrew Quinn et al.
+- **Repository**: https://gitlab.com/emd-dev/emd
+- **License**: GNU General Public License v2+
+- **Version**: 0.8.1 (modified)
+
+### Why This Modification?
+
+The original library's internal white noise sift uses conservative stopping criteria (`energy_thresh=50`, `rilling_thresh=(0.05, 0.5, 0.05)`) that cause it to naturally stop after ~8 IMFs. For long time-series analysis where we need to extract ultra-long trends (spanning the entire data length), this limitation is problematic.
+
+Our modification:
+1. Passes `max_imfs` to internal sift calls
+2. Optionally uses aggressive parameters (`energy_thresh=1e10`, `rilling_thresh=None`) for complete extraction
+3. Successfully extracts coherent long-term components
+
+## ⚠️ License Notice
+
+This project is a **modified version** of the [emd](https://gitlab.com/emd-dev/emd) library, licensed under **GNU General Public License v2+**.
+
+**Your obligations under GPL:**
+1. ✅ Preserve this LICENSE file unchanged
+2. ✅ Include this notice in your derivative works
+3. ✅ Make your source code available when distributing
+4. ✅ Apply the same GPL license to your modifications
+
+## 📝 Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@software{ceemdan_long_series,
+  author = {author9527},
+  title = {CEEMDAN Long-Time-Series Extension},
+  url = {https://github.com/author9527/ceemdan-long-series},
+  version = {1.0.0},
+  date = {2026-01},
+  license = {GPL-2.0+}
+}
+```
+
+Also cite the original emd library:
+```bibtex
+@software{emd_lib,
+  author = {Andrew Quinn et al.},
+  title = {EMD: Empirical Mode Decomposition},
+  url = {https://gitlab.com/emd-dev/emd},
+  version = {0.8.1},
+  license = {GPL-2.0+}
+}
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please note that by contributing, you agree to license your contributions under GPL v2+.
+
+---
+
+**Disclaimer**: This project is provided "as is" without warranty. Use at your own risk.
